@@ -147,6 +147,7 @@ or
 	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
 
 ### Fig 7: Nclaunch Window
+![Screenshot (134)](https://github.com/user-attachments/assets/26b25796-77ef-4895-a12b-1fe230d33f1a)
 
 
 ## Step 1: Compilation:– Process to check the correct Verilog language syntax and usage 
