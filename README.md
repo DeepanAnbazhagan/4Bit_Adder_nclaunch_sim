@@ -57,7 +57,7 @@ Note : File name should be with HDL Extension
 
 •	fa_4bit_test.v → Test bench 
 
-fulladder.v program:-
+### fulladder.v program:-
 
            module full_adder(A,B,CIN,S,COUT);
            input A,B,CIN;
@@ -66,7 +66,7 @@ fulladder.v program:-
            assign COUT=(A&B) | (CIN&(A^B));
            endmodule
 
-4bit fulladder.v program:-
+### 4bit fulladder.v program:-
 
 
              module fulladd_4bit(A,B,C0,S,C4);
@@ -81,7 +81,7 @@ fulladder.v program:-
              full_adder fa3 (A[3],B[3],C3,S[3],C4);
              endmodule
 
-4bit fulladder test.v program:-
+### 4bit fulladder test.v program:-
 
            module test_4bit;
            reg [3:0] A;
@@ -219,6 +219,9 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 ![Screenshot (92)](https://github.com/user-attachments/assets/be5fc178-ae22-4777-8fdb-1fb4c60fe3eb)
 
 ### Fig 12: Simulation Waveform Window
+
+### Result:
+the functionality of 4-Bit Adder was successfully verified using a test bench and simulated with the nclaunch tool.
 
 
 
