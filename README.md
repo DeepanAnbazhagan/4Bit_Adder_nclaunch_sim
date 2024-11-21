@@ -97,6 +97,7 @@ fulladder.v program:-
            end initial
            #50 $finish;
            endmodule
+Developed by :- DEEPAN.A
 
 
 
